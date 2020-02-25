@@ -3,7 +3,7 @@ console.log(random);
 let essaie = 10;
 let nombre = prompt(`Entrez un nombre entre 1 et 100 : il vous reste ${essaie} essai(s) `);
 
-for(i = 0 ; i < 9; i++){
+for(let i = 0 ; i < 9; i++){
   if(nombre > random ){
     essaie--;
     console.log("Trop grand !");
