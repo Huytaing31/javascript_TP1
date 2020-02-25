@@ -28,4 +28,7 @@ switch (jourActuel) {
     console.log("Désolé, je n'ai pas compris");
     
 }
-console.log(`Demain, nous serons ${jourSuivant}`);
+
+if(jourSuivant){
+  console.log(`Demain, nous serons ${jourSuivant}`);
+}
